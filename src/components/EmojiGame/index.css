@@ -1,0 +1,36 @@
+/* Write your code here. */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-display-container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 0px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-list-container {
+    width: 100%;
+  }
+}

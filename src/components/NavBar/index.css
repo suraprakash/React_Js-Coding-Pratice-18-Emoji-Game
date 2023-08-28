@@ -1,0 +1,80 @@
+/* Write your code here. */
+
+.nav-card {
+  height: 18%;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-card {
+    justify-content: center;
+    height: 10%;
+  }
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-container {
+    width: 40%;
+  }
+}
+
+.logo-img {
+  width: 14%;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-img {
+    width: 20%;
+  }
+}
+
+.logo-text {
+  padding-left: 5%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-text {
+    padding: 0%;
+    font-size: 16px;
+  }
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.score-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media screen and (max-width: 576px) {
+  .score-container {
+    width: 50%;
+  }
+
+  .score-text {
+    font-size: 16px;
+  }
+}
